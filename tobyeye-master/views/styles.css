@@ -29,13 +29,7 @@
    height: 100%;
 }
 
-body {
-   font-family: Arial, Helvetica, sans-serif;
-   background-color: #f2f2f2;
-   margin: 0;
-   padding: 0;
 
-}
 
 @media print {
    body {
@@ -56,15 +50,15 @@ body {
 }
 
 .titulo {
-   color: black;
+   color: rgb(158, 0, 0);
    font-size: 2em;
    font-weight: bold;
    text-align: center;
-   text-shadow: 2px 2px 2px gray;
+   
 }
 
 nav {
-   background-color: #333;
+   background-color:rgb(158, 0, 0);
    color: #fff;
    display: flex;
    display: flex;
@@ -112,4 +106,35 @@ nav a:hover {
 #image-container {
    width: 300px;
    height: 200px;
+}
+
+b {
+   font-size: 20px;
+   font-weight: bold;
+ }
+
+ #slider {
+   width: 500px;
+   height: 300px;
+   overflow: hidden;
+ }
+ #slider ul {
+   width: 1500px;
+   height: 300px;
+   margin: 0;
+   padding: 0;
+   list-style: none;
+ }
+ #slider li {
+   float: left;
+   width: 500px;
+   height: 300px;
+ }
+ #slider img {
+   object-fit: cover;
+ }
+
+ #slider img {
+  width: 100%;
+  height: 100%;
 }
